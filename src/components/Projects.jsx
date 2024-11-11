@@ -24,13 +24,13 @@ export default function Projects() {
              hover:scale-105 hover:rounded-2xl transition hover:grayscale-[0%] duration-200  "
             />
             <div className="flex flex-wrap gap-1 pt-2 text-zinc-400 ">
-              <span className="bg-zinc-900 px-2 py-1 rounded-xl shadow ">
+              <span className="bg-zinc-900 px-2 py-1 rounded-xl group-hover:shadow ">
                 Next.js
               </span>
-              <span className="bg-zinc-900 px-2 py-1 rounded-xl shadow ">
+              <span className="bg-zinc-900 px-2 py-1 rounded-xl group-hover:shadow ">
                 Tailwind CSS
               </span>
-              <span className="bg-zinc-900 px-2 py-1 rounded-xl shadow ">
+              <span className="bg-zinc-900 px-2 py-1 rounded-xl group-hover:shadow ">
                 Firebase
               </span>
             </div>
@@ -54,13 +54,14 @@ export default function Projects() {
           <div className=" row-span-1 flex flex-col group gap-3 hover:bg-zinc-800 p-3 sm:p-4 md:p-6 rounded-2xl duration-200 max-w-[500px] ">
             <p className="font-medium ">Quiz App</p>
             <p className="text-zinc-400">
-              Lets you take a quiz of set of 10 questions.
+              Lets you take a quiz of set of random 10 questions, that are
+              fetched from Open Trivia Database API.
             </p>
             <div className="flex flex-wrap gap-1 pt-1 text-zinc-400 ">
-              <span className="bg-zinc-900 px-2 py-1 rounded-xl shadow ">
+              <span className="bg-zinc-900 px-2 py-1 rounded-xl group-hover:shadow ">
                 React.js
               </span>
-              <span className="bg-zinc-900 px-2 py-1 rounded-xl shadow ">
+              <span className="bg-zinc-900 px-2 py-1 rounded-xl group-hover:shadow ">
                 CSS
               </span>
             </div>
@@ -81,13 +82,13 @@ export default function Projects() {
               Used Beautifulsoup to scrap news and CSV to store data.
             </p>
             <div className="flex flex-wrap gap-1 pt-1 text-zinc-400 ">
-              <span className="bg-zinc-900 px-2 py-1 rounded-xl shadow ">
+              <span className="bg-zinc-900 px-2 py-1 rounded-xl group-hover:shadow ">
                 Python3
               </span>
-              <span className="bg-zinc-900 px-2 py-1 rounded-xl shadow ">
+              <span className="bg-zinc-900 px-2 py-1 rounded-xl group-hover:shadow ">
                 Pandas
               </span>
-              <span className="bg-zinc-900 px-2 py-1 rounded-xl shadow ">
+              <span className="bg-zinc-900 px-2 py-1 rounded-xl group-hover:shadow ">
                 Vader-sentiment-analyser
               </span>
             </div>
@@ -108,10 +109,10 @@ export default function Projects() {
               Used Pygame to create dashboard for the game
             </p>
             <div className="flex flex-wrap pt-1 gap-1 text-zinc-400 ">
-              <span className="bg-zinc-900 px-2 py-1 rounded-xl shadow ">
+              <span className="bg-zinc-900 px-2 py-1 rounded-xl group-hover:shadow ">
                 Python3
               </span>
-              <span className="bg-zinc-900 px-2 py-1 rounded-xl shadow ">
+              <span className="bg-zinc-900 px-2 py-1 rounded-xl group-hover:shadow ">
                 Pygame
               </span>
             </div>

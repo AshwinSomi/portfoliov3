@@ -27,8 +27,8 @@ export default function LandingPage() {
             Please check out my portfolio on Home
           </p>
           <div
-            className="bg-zinc-800 p-3 rounded-xl border border-zinc-500 border-opacity-20
-          hover:border-opacity-50 font-medium active:bg-opacity-50 active:border-opacity-20 duration-200 shadow "
+            className="bg-zinc-800/90 p-3 rounded-xl border border-zinc-500 border-opacity-20
+          hover:border-opacity-40 font-medium active:bg-opacity-50 active:border-opacity-20 duration-200 shadow "
           >
             <Link to="/home">Go to Portfolio</Link>
           </div>
