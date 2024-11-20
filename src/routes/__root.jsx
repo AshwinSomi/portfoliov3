@@ -51,7 +51,7 @@ export const Route = createRootRoute({
             </a>
           </div>
         </div>
-        <div className="flex-grow ">
+        <div className="flex-1 ">
           <Outlet />
         </div>
         <div className="pt-8  ">
