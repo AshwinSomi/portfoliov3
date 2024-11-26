@@ -1,11 +1,10 @@
 import { createRootRoute, Link, Outlet } from "@tanstack/react-router";
-import { TanStackRouterDevtools } from "@tanstack/router-devtools";
 
 import { FaExternalLinkAlt } from "react-icons/fa";
 import Footer from "../components/Footer";
 
 const gradientUnderLine =
-  "font-medium hover:text-[#1ddbb5] [&.active]:text-[#1ddbb5] [&.active]:relative duration-200 pt-1.5 pb-2.5 [&.active]:after:absolute [&.active]:after:bottom-0 [&.active]:after:left-0 [&.active]:after:w-full [&.active]:after:h-[0.5px] [&.active]:after:bg-gradient-to-r [&.active]:after:from-transparent [&.active]:after:via-[#1ddbb5]/50 [&.active]:after:to-transparent ";
+  "font-medium hover:text-teal-400 [&.active]:text-teal-400 [&.active]:relative duration-200 pt-1.5 pb-2.5 [&.active]:after:absolute [&.active]:after:bottom-0 [&.active]:after:left-0 [&.active]:after:w-full [&.active]:after:h-[0.5px] [&.active]:after:bg-gradient-to-r [&.active]:after:from-transparent [&.active]:after:via-teal-400/50 [&.active]:after:to-transparent ";
 
 export const Route = createRootRoute({
   component: () => (
@@ -19,7 +18,7 @@ export const Route = createRootRoute({
           <div className="ring-1 ring-zinc-500 ring-opacity-25 hover:ring-opacity-40 bg-opacity-90 hover:bg-opacity-100 bg-zinc-800 p-1 px-6 rounded-full flex gap-6 ">
             <Link
               to="/"
-              // className="font-medium hover:text-[#1ddbb5] [&.active]:border-b [&.active]:text-[#1ddbb5] [&.active]:border-current duration-200 pt-1.5 pb-2 "
+              // className="font-medium hover:text-teal-400 [&.active]:border-b [&.active]:text-teal-400 [&.active]:border-current duration-200 pt-1.5 pb-2 "
               className={gradientUnderLine}
             >
               LandingPage
@@ -27,7 +26,7 @@ export const Route = createRootRoute({
             <Link
               to="/home"
               className={gradientUnderLine}
-              // className="font-medium hover:text-[#1ddbb5] [&.active]:border-b [&.active]:text-[#1ddbb5] [&.active]:border-current duration-200 pt-1.5 pb-2 "
+              // className="font-medium hover:text-teal-400 [&.active]:border-b [&.active]:text-teal-400 [&.active]:border-current duration-200 pt-1.5 pb-2 "
             >
               Home
             </Link>
@@ -35,7 +34,7 @@ export const Route = createRootRoute({
               href="https://ashwin065-portfolio.netlify.app/"
               // className={gradientUnderLine}
               target="blank"
-              className="font-medium hover:text-[#1ddbb5] duration-200 pt-1.5 pb-2 flex flex-row justify-center items-center gap-1 "
+              className="font-medium hover:text-teal-400 duration-200 pt-1.5 pb-2 flex flex-row justify-center items-center gap-1 "
             >
               OldPortfolio
               <FaExternalLinkAlt size={10} />
@@ -44,7 +43,7 @@ export const Route = createRootRoute({
               href="https://github.com/AshwinSomi"
               // className={gradientUnderLine}
               target="blank"
-              className="font-medium hover:text-[#1ddbb5] duration-200 pt-1.5 pb-2 flex flex-row justify-center items-center gap-1 "
+              className="font-medium hover:text-teal-400 duration-200 pt-1.5 pb-2 flex flex-row justify-center items-center gap-1 "
             >
               GitHub
               <FaExternalLinkAlt size={10} />

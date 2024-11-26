@@ -1,5 +1,5 @@
-import React from "react";
 import { Link } from "@tanstack/react-router";
+import React from "react";
 
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -8,10 +8,10 @@ export default function Footer() {
     <footer className=" p-4 md:p-8 pb-20 md:pb-20 bg-zinc-950 border-t border-zinc-500 border-opacity-20">
       <div className="flex flex-col md:flex-row justify-around gap-10 md:gap-20 lg:gap-40 ">
         <div className="flex flex-wrap gap-6">
-          <Link to="/" className="font-medium hover:text-[#1ddbb5]">
+          <Link to="/" className="font-medium hover:text-teal-400">
             LandingPage
           </Link>
-          <Link to="/home" className="font-medium hover:text-[#1ddbb5] ">
+          <Link to="/home" className="font-medium hover:text-teal-400 ">
             Home
           </Link>
 
@@ -19,7 +19,7 @@ export default function Footer() {
             href="https://ashwin065-portfolio.netlify.app/"
             // className={gradientUnderLine}
             target="blank"
-            className="font-medium hover:text-[#1ddbb5] flex flex-row justify-center items-center gap-1 "
+            className="font-medium hover:text-teal-400 flex flex-row justify-center items-center gap-1 "
           >
             OldPortfolio
             <FaExternalLinkAlt size={10} />
@@ -28,7 +28,7 @@ export default function Footer() {
             href="https://github.com/AshwinSomi"
             // className={gradientUnderLine}
             target="blank"
-            className="font-medium hover:text-[#1ddbb5] flex flex-row justify-center items-center gap-1 "
+            className="font-medium hover:text-teal-400 flex flex-row justify-center items-center gap-1 "
           >
             GitHub
             <FaExternalLinkAlt size={10} />
@@ -36,7 +36,7 @@ export default function Footer() {
           <a
             href=""
             target="blank"
-            className="font-medium hover:text-[#1ddbb5] flex flex-row justify-center items-center gap-1 "
+            className="font-medium hover:text-teal-400 flex flex-row justify-center items-center gap-1 "
           >
             Resume
             <FaExternalLinkAlt size={10} />

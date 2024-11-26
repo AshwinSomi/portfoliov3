@@ -1,6 +1,6 @@
 import React from "react";
-import userPic from "../assets/ash1.png";
 import { CiLocationOn } from "react-icons/ci";
+import userPic from "../assets/ash1.png";
 
 export default function Profile() {
   return (

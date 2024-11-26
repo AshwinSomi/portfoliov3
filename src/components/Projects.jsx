@@ -1,6 +1,6 @@
 import React from "react";
-import pic1 from "../assets/trackDaily.png";
 import { IoIosLink } from "react-icons/io";
+import pic1 from "../assets/trackDaily.png";
 
 export default function Projects() {
   return (
@@ -10,7 +10,7 @@ export default function Projects() {
         {/* grid grid-cols-1 lg:grid-cols-2 gap-10 */}
         <div className="grid  lg:grid-cols-2 lg:grid-flow-row gap-10 ">
           <div className="row-span-2 flex flex-col gap-3 group hover:bg-zinc-800  p-3 sm:p-4 md:p-6 rounded-2xl duration-200 max-w-[500px] relative ">
-            <p className="font-medium ">Tract Daily</p>
+            <p className="font-medium ">Track Daily</p>
             <p className="text-zinc-400 pb-2 ">
               Lets you track you mood and wite you thoughts for that day through
               out the month, year, ....
@@ -21,7 +21,7 @@ export default function Projects() {
               alt="web page img"
               src={pic1}
               className="w-48 md:w-64 mx-auto filer grayscale-[10%] rounded-xl
-             hover:scale-105 hover:rounded-2xl transition hover:grayscale-[0%] duration-200  "
+             hover:scale-105 hover:rounded-2xl transition ease-in-out hover:grayscale-[0%] duration-200  "
             />
             <div className="flex flex-wrap gap-1 pt-2 text-zinc-400 ">
               <span className="bg-zinc-900 px-2 py-1 rounded-xl group-hover:shadow ">
@@ -37,14 +37,14 @@ export default function Projects() {
             <div className="flex gap-3 ">
               <a
                 href="https://ashwin065-track-daily.netlify.app/"
-                className="group-hover:text-[#1ddbb5] font-medium pt-4 flex flex-row gap-1 "
+                className="group-hover:text-teal-400 font-medium pt-4 flex flex-row gap-1 "
               >
                 <IoIosLink size={18} />
                 Track-daily
               </a>
               <a
                 href="https://github.com/AshwinSomi/track_daily-next-app"
-                className="group-hover:text-[#1ddbb5] font-medium pt-4 flex flex-row gap-1 "
+                className="group-hover:text-teal-400 font-medium pt-4 flex flex-row gap-1 "
               >
                 <IoIosLink size={18} />
                 GitHub
@@ -67,7 +67,7 @@ export default function Projects() {
             </div>
             <a
               href="https://github.com/AshwinSomi/React_quizApplication_1/tree/main/quiz_app_1"
-              className="group-hover:text-[#1ddbb5] font-medium pt-4 flex flex-row gap-1 "
+              className="group-hover:text-teal-400 font-medium pt-4 flex flex-row gap-1 "
             >
               <IoIosLink size={18} />
               GitHub
@@ -94,7 +94,7 @@ export default function Projects() {
             </div>
             <a
               href="https://github.com/AshwinSomi/News-Analyzer"
-              className="group-hover:text-[#1ddbb5] font-medium pt-4 flex flex-row gap-1 "
+              className="group-hover:text-teal-400 font-medium pt-4 flex flex-row gap-1 "
             >
               <IoIosLink size={18} />
               GitHub
@@ -116,7 +116,7 @@ export default function Projects() {
                 Pygame
               </span>
             </div>
-            <a className="group-hover:text-[#1ddbb5] font-medium pt-4 flex flex-row gap-1 ">
+            <a className="group-hover:text-teal-400 font-medium pt-4 flex flex-row gap-1 ">
               <IoIosLink size={18} />
               GitHub
             </a>
