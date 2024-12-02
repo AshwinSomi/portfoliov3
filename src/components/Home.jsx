@@ -1,12 +1,9 @@
 import React from "react";
-import pic1 from "../assets/trackDaily.png";
-import { IoIosLink } from "react-icons/io";
-import Projects from "./Projects";
 import Contact from "./Contact";
 import Media from "./Media";
-import Footer from "./Footer";
 import Profile from "./Profile";
-import Education from "./Education";
+import Projects from "./Projects";
+import Work from "./Work";
 
 export default function Home() {
   return (
@@ -14,10 +11,11 @@ export default function Home() {
       {/* <div className="flex-grow "> */}
       <Profile />
       {/* </div> */}
+      <Work />
       <Projects />
       {/* <Education /> */}
-      <Contact />
       <Media />
+      <Contact />
     </div>
   );
 }

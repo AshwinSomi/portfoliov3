@@ -9,36 +9,20 @@ const gradientUnderLine =
 export const Route = createRootRoute({
   component: () => (
     <div className="font-normal bg-black antialiased mx-auto ">
+      {/* ring-1 ring-zinc-400 ring-opacity-25 */}
       <div
-        className="min-h-screen bg-zinc-900 text-zinc-200 mx-auto max-w-[1250px] 
-        ring-1 ring-zinc-400 ring-opacity-25 shadow-xl text-sm 
+        className="min-h-screen  text-zinc-200 mx-auto max-w-[1250px] 
+        border border-x border-zinc-500 border-opacity-25 shadow-xl text-sm 
         flex flex-col "
       >
         <div className="flex flex-row justify-center content-center p-6 ">
-          <div className="ring-1 ring-zinc-500 ring-opacity-25 hover:ring-opacity-40 bg-opacity-90 hover:bg-opacity-100 bg-zinc-800 p-1 px-6 rounded-full flex gap-6 ">
-            <Link
-              to="/"
-              // className="font-medium hover:text-teal-400 [&.active]:border-b [&.active]:text-teal-400 [&.active]:border-current duration-200 pt-1.5 pb-2 "
-              className={gradientUnderLine}
-            >
+          <div className="ring-1 ring-zinc-400 ring-opacity-20 bg-neutral-900/60 hover:ring-opacity-20 shadow-lg hover:shadow-zinc-600/20 hover:scale-100 transition duration-200 text-zinc-300 p-1 px-6 rounded-xl flex gap-6 ">
+            <Link to="/" className={gradientUnderLine}>
               LandingPage
             </Link>{" "}
-            <Link
-              to="/home"
-              className={gradientUnderLine}
-              // className="font-medium hover:text-teal-400 [&.active]:border-b [&.active]:text-teal-400 [&.active]:border-current duration-200 pt-1.5 pb-2 "
-            >
+            <Link to="/home" className={gradientUnderLine}>
               Home
             </Link>
-            {/* <a
-              href="https://ashwin065-portfolio.netlify.app/"
-              // className={gradientUnderLine}
-              target="blank"
-              className="font-medium hover:text-teal-400 duration-200 pt-1.5 pb-2 flex flex-row justify-center items-center gap-1 "
-            >
-              OldPortfolio
-              <FaExternalLinkAlt size={10} />
-            </a> */}
             <a
               href="https://github.com/AshwinSomi"
               // className={gradientUnderLine}

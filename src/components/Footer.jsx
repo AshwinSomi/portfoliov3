@@ -5,7 +5,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className=" p-4 md:p-8 pb-20 md:pb-20 bg-zinc-950 border-t border-zinc-500 border-opacity-20">
+    <footer className=" p-4 md:p-8 pb-20 md:pb-20 border-t border-zinc-200 border-opacity-25">
       <div className="flex flex-col md:flex-row justify-around gap-10 md:gap-20 lg:gap-40 ">
         <div className="flex flex-wrap gap-6">
           <Link to="/" className="font-medium hover:text-teal-400">
