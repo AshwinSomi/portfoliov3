@@ -42,7 +42,7 @@ export default function Media() {
               />
             </svg>
           </a>
-          <a
+          {/* <a
             href="https://www.instagram.com/ashwinreddy_065/"
             className="bg-neutral-800 rounded-full flex items-center justify-center w-[48px] aspect-square
      hover:scale-105 active:scale-100 active:bg-neutral-900 group duration-50"
@@ -89,7 +89,7 @@ export default function Media() {
                 </radialGradient>
               </defs>
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

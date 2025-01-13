@@ -17,7 +17,8 @@ export default function Projects() {
             <p className="font-medium ">Messaging App</p>
             <p className="text-zinc-400 pb-2 ">
               A realtime message app that lets to connect with your friends in
-              the app and text them.
+              the app and text them. Also let to text using voice; done by
+              voice-to-text LLM.
               <br />
               Stored all data in Redis, and authenticated user with Google
               Oauth2.0, Next-Auth.
@@ -62,6 +63,15 @@ export default function Projects() {
                 Redis
               </span>
               <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                HuggingFace
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Transformer
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                voice-to-text LLM; WhisperTiny
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
                 Next-Auth
               </span>
               <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
@@ -75,8 +85,6 @@ export default function Projects() {
               <details>
                 <summary>Things to add</summary>
                 <p>
-                  -A audio transcriber to transcribe user recorded audio to text
-                  <br />
                   -Issue interacting with database in production
                   <br />
                   -New pub/sub model{" "}

@@ -17,18 +17,15 @@ export default function Work() {
               </div>
               <div>
                 <p className="font-medium ">Nectar Info Tek</p>
-                <p className="text-zinc-400 ">
-                  Working as a full stack developer using Next.js, Node.js and a
-                  bit of Java development{" "}
-                </p>
+                <p className="text-zinc-400 "></p>
               </div>
             </div>
           </div>
           <div className="p-4 md:p-8 col-span-1 border-l border-b border-dashed border-zinc-300/20">
-            <p className="text-zinc-400 ">May 2024 - Till</p>
+            <p className="text-zinc-400 ">Jun 2024 - Till</p>
           </div>
           <div className="p-4 text-zinc-400 md:p-8 col-span-1 border-r border-b border-dashed border-zinc-300/20">
-            Jan 2024 - April 2024
+            May 2023 - April 2024
           </div>
           <div className="p-4 md:p-8 col-span-2 border-l border-b border-dashed border-zinc-300/20">
             <div className="flex flex-row gap-4 items-center ">
@@ -38,8 +35,8 @@ export default function Work() {
               <div>
                 <p className="font-medium ">Staples</p>
                 <p className="text-zinc-400 ">
-                  Worked on a full stack project in React, Node to manage
-                  metadata in user's dashboard{" "}
+                  Worked on a full stack project to manage metadata in user's
+                  dashboard{" "}
                 </p>
               </div>
             </div>
@@ -53,7 +50,7 @@ export default function Work() {
                 <p className="font-medium ">Persistent Systems</p>
                 <p className="text-zinc-400 ">
                   Worked on developing and testing Core Java applications, also
-                  have worked on React.{" "}
+                  have worked on React, development in Azure .{" "}
                 </p>
               </div>
             </div>
