@@ -18,6 +18,7 @@ export default function Work() {
               <div>
                 <p className="font-medium ">Nectar Info Tek</p>
                 <p className="text-zinc-400 "></p>
+                <p className="text-zinc-400 "></p>
               </div>
             </div>
           </div>
@@ -35,8 +36,8 @@ export default function Work() {
               <div>
                 <p className="font-medium ">Staples</p>
                 <p className="text-zinc-400 ">
-                  Worked on a full stack project to manage metadata in user's
-                  dashboard{" "}
+                  Worked on a full stack project in React, Node to manage
+                  metadata in user's dashboard{" "}
                 </p>
               </div>
             </div>
