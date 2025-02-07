@@ -3,7 +3,6 @@ import Contact from "./Contact";
 import Media from "./Media";
 import Profile from "./Profile";
 import Projects from "./Projects";
-import Work from "./Work";
 
 export default function Home() {
   return (
@@ -11,9 +10,10 @@ export default function Home() {
       {/* <div className="flex-grow "> */}
       <Profile />
       {/* </div> */}
-      <Work />
+      {/* <Work /> */}
       <Projects />
       {/* <Education /> */}
+
       <Media />
       <Contact />
     </div>

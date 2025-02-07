@@ -11,11 +11,11 @@ export default function Profile() {
         md:border-0 border-dashed border-zinc-300/20 md:items-center"
         >
           <div className="p-0 md:p-8 flex flex-col gap-5 max-w-[500px] font- text-zinc-400 md:border-0 border-dashed border-zinc-400/25 ">
-            <p className=" ">Hello I am Ashwin, I am a developer.</p>
+            <p className=" ">Hello I am Ashwin, I am a Software Engineer.</p>
             <p className=" ">
               <span className="">
-                I am currently working as a Software developer at Nectar Info
-                Tek.
+                I have a strong background in Full Stack development and hands
+                on experience in data engineering.
               </span>{" "}
               <br /> I am Interested in learning and developing new things
               across different technologies.

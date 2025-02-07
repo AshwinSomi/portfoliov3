@@ -21,8 +21,7 @@ export default function LandingPage() {
             </div>
           </div>
           <p className="text-zinc-400 pt-4 text-center ">
-            This is LandingPage
-            <br />I am still working on this page... <br />
+            I am working on this page... <br />
             Please check out my portfolio on Home{" "}
             {/* <Link
               className="hover: font-medium hover:text-zinc-300 "

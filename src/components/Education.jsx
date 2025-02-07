@@ -1,7 +1,7 @@
 import React from "react";
 import { IoSchoolOutline } from "react-icons/io5";
-import nauPic from "../assets/nau.png";
 import bvritPic from "../assets/bvrit.png";
+import nauPic from "../assets/nau.png";
 
 export default function Education() {
   return (

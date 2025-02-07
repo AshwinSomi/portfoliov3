@@ -4,6 +4,7 @@ import messageApp1 from "../assets/messageApp1.png";
 import messageApp2 from "../assets/messageApp2.png";
 import messageApp3 from "../assets/messageApp3.png";
 import pic1 from "../assets/trackDaily.png";
+import means from "../assets/vis_10_means.png";
 
 export default function Projects() {
   return (
@@ -13,6 +14,119 @@ export default function Projects() {
         {/* grid grid-cols-1 lg:grid-cols-2 gap-10 */}
 
         <div className="grid  lg:grid-cols-2 lg:grid-flow-row gap-10 ">
+          <div className="row-span-2 flex flex-col gap-3 group bg-neutral-950 hover:bg-neutral-900  p-3 sm:p-4 md:p-6 rounded-2xl duration-200 max-w-[500px] relative ">
+            <p className="font-medium ">Parallel Data-Intensive Computing</p>
+            <p className="text-zinc-400 pb-2 ">
+              - Implemented distributed-memory K-Means clustering algorithm
+              utilizing weighted means. Achieved over 8x faster execution times
+              over serialized K-Means.
+              <br />
+              - Implemented Distance matrix, Distribution sort algorithms
+              utilizing tiling and bucketing for cache reuse, load balancing for
+              skewed data distribution.
+              <br />- Analyzed performance of parallel data-intensive programs
+              with 1M+ multidimensional datasets focusing on improving cache
+              utilizations, data distribution, algorithms, communication
+              patterns and resource allocation.
+            </p>
+
+            <img
+              alt="web page img"
+              src={means}
+              className="h-40 lg:h-48 mx-auto filer grayscale-[25%] rounded-lg
+             hover:scale-105 transition group-hover:grayscale-[0%] duration-200  "
+            />
+
+            <div className="flex flex-wrap gap-1 pt-2 text-zinc-400 ">
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                C
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                C++
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                MPI API
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                HPC
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Distributed memory K-Means clustering
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Ubuntu
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Cluster
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Job Scheduler
+              </span>
+            </div>
+            <div className="flex gap-3 ">
+              <a
+                href="https://github.com/AshwinSomi/CS552_HPC"
+                className="group-hover:text-teal-400 font-medium pt-4 flex flex-row gap-1 "
+              >
+                <IoIosLink size={18} />
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div className="row-span-1 flex flex-col gap-3 group bg-neutral-950 hover:bg-neutral-900  p-3 sm:p-4 md:p-6 rounded-2xl duration-200 max-w-[500px] relative ">
+            <p className="font-medium ">
+              Predictive Model for Post-COVID-19 Aftereffects
+            </p>
+            <p className="text-zinc-400 pb-2 ">
+              Designed and compared predictive models in Python using Naïve
+              Bayes, Logistic Regression, KNN to analyze long COVID effects on
+              real-world data.
+              <br />
+              Performed data preprocessing, exploratory data analysis (EDA), and
+              evaluated model performance using accuracy and F1score metrics.
+              <br />
+              Identified high-risk individuals, enabling proactive healthcare
+              strategies.
+            </p>
+
+            <div className="flex flex-wrap gap-1 pt-2 text-zinc-400 ">
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Python
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Scikit-learn
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Pandas
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Matplotlib
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Naïve Bayes
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Logistic Regression
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                KNN
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Jupyter Notebook
+              </span>
+            </div>
+            <div className="flex gap-3 ">
+              <a
+                href="https://github.com/AshwinSomi/CS552_HPC"
+                className="group-hover:text-teal-400 font-medium pt-4 flex flex-row gap-1 "
+              >
+                <IoIosLink size={18} />
+                GitHub
+              </a>
+            </div>
+          </div>
+
           <div className="row-span-2 flex flex-col gap-3 group bg-neutral-950 hover:bg-neutral-900  p-3 sm:p-4 md:p-6 rounded-2xl duration-200 max-w-[500px] relative ">
             <p className="font-medium ">Messaging App</p>
             <p className="text-zinc-400 pb-2 ">
@@ -108,11 +222,13 @@ export default function Projects() {
               </a>
             </div>
           </div>
-          <div className=" hidden row-span-1 lg:flex flex-col group gap-3  p-3 sm:p-4 md:p-6 rounded-2xl min-h-[250px] max-w-[500px] ">
-            {/* <p className="font-medium "></p>
+
+          {/* <div className=" hidden row-span-1 lg:flex flex-col group gap-3  p-3 sm:p-4 md:p-6 rounded-2xl min-h-[250px] max-w-[500px] "> */}
+          {/* <p className="font-medium "></p>
             <p className="text-zinc-400"></p>
             <div className="flex flex-wrap gap-1 pt-1 text-zinc-400 "></div> */}
-          </div>
+          {/* </div> */}
+
           <div className="row-span-2 flex flex-col gap-3 group bg-neutral-950 hover:bg-neutral-900  p-3 sm:p-4 md:p-6 rounded-2xl duration-200 max-w-[500px] relative ">
             <p className="font-medium ">Track Daily</p>
             <p className="text-zinc-400 pb-2 ">
@@ -130,6 +246,9 @@ export default function Projects() {
             <div className="flex flex-wrap gap-1 pt-2 text-zinc-400 ">
               <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
                 Next.js
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                JavaScript
               </span>
               <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
                 Tailwind CSS
@@ -210,8 +329,9 @@ export default function Projects() {
           <div className="row-span-1 flex flex-col group gap-3 bg-neutral-950 hover:bg-neutral-900 p-3 sm:p-4 md:p-6 rounded-2xl duration-200 max-w-[500px] ">
             <p className="font-medium ">Data Warehouse</p>
             <p className="text-zinc-400">
-              Created a data warehouse using dimensional modelling techniques on
-              a dataset with over 600 records collected from kaggle.
+              Created a data warehouse using dimensional modelling techniques
+              and star schema on a dataset with over 600 records collected from
+              kaggle.
               <br />
               The dimensional database had 3 dimensions and 1 fact table.
             </p>
@@ -221,6 +341,9 @@ export default function Projects() {
               </span>
               <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
                 Excel
+              </span>
+              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
+                Star schema
               </span>
             </div>
             {/* <a className="group-hover:text-teal-400 font-medium pt-4 flex flex-row gap-1 ">
