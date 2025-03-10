@@ -51,10 +51,7 @@ export default function Projects() {
                 HPC
               </span>
               <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
-                Distributed memory K-Means clustering
-              </span>
-              <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
-                Ubuntu
+                Linux (Ubuntu)
               </span>
               <span className="bg-neutral-900 group-hover:bg-neutral-950 px-2 py-1 group-hover:text-zinc-200 rounded-xl group-hover:shadow ">
                 Cluster

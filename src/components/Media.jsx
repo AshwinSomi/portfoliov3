@@ -20,7 +20,7 @@ export default function Media() {
               className="group-active:brightness-75 transition-all "
             />
           </a>
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/ashwin-reddy-s/"
             className="bg-neutral-800 rounded-full flex items-center justify-center w-[48px] aspect-square
      hover:scale-105 active:scale-100 active:bg-neutral-900 group duration-50"
@@ -41,7 +41,7 @@ export default function Media() {
                 fill="#006699"
               />
             </svg>
-          </a>
+          </a> */}
           {/* <a
             href="https://www.instagram.com/ashwinreddy_065/"
             className="bg-neutral-800 rounded-full flex items-center justify-center w-[48px] aspect-square
